@@ -1,6 +1,6 @@
 package main
 // create a new 'type' of called deck. it is a slice of strings. Similar to a class
-
+import "fmt"
 
 type deck []string
 
