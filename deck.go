@@ -1,6 +1,9 @@
 package main
 // create a new 'type' of called deck. it is a slice of strings. Similar to a class
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 type deck []string
 
@@ -31,6 +34,6 @@ func deal(d deck, handSize int) (deck, deck) {
 	return d[:handSize], d[handSize:]
 }
 
-func toString() {
-	
+func (d deck) toString() string {
+	return strings.Join([]string(d), ", ")
 }
