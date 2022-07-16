@@ -7,3 +7,6 @@ func (d deck) print() {       (d deck) is an instance of a type set to receive t
 		fmt.Println(i, card)
 		}
 }
+
+type conversion 
+[]byte("Hi there!)  will convert the string into a byte slice
