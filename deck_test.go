@@ -4,7 +4,7 @@ import "testing"
 
 func TestNewDeck(t *testing.T) {
 	d := newDeck()
-	if len(d) != 2000{
-		t.Errorf("Expected deck 20, but got %v", len(d))
+	if len(d) != 16{
+		t.Errorf("Expected deck 16, but got %v", len(d))
 	}
 }
